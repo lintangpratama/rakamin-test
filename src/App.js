@@ -1,11 +1,16 @@
-import './App.css';
-import CounterExample from './Components/CounterExample';
+import CounterExample from "./Components/CounterExample";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
 // import HelloWorld from './Components/HelloWorld';
 
 function App() {
   return (
-    <CounterExample />
-    // <HelloWorld name="Lintang" />
+    <div>
+      <Header />
+      <CounterExample />
+      {/* // <HelloWorld name="Lintang" /> */}
+      <Footer />
+    </div>
   );
 }
 
