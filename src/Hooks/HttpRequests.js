@@ -25,6 +25,7 @@ export function useAxiosGet(url, type) {
       .catch((err) => {
         setRequest({ loading: false, data: null });
       });
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return request;
